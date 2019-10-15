@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Basicamente trata-se de um projeto criado para ser apresentado no evento “CASA ABERTA”, que ocorre anualmente na Etec de Poá, para mostrar projetos desenvolvidos pelos alunos.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cine & Picture</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header_logo">
+                <a href="#">
+                    <img src="assets/images/Logo.png" alt="Cine&Picture">
+                </a>
+            </h1>
+            <button class="header_nav-toggle" data-target="#nav">Menu</button>
+            <nav id="nav" class="nav">
+                <ul class="menu">
+                    <li class="menu_item"><a href="#about-us" class="menu_link">Conheça-nos</a></li>
+                    <li class="menu_item"><a href="#sections" class="menu_link">Sessões</a></li>
+                    <li class="menu_item"><a href="#teams" class="menu_link">Equipes</a></li>
+                    <li class="menu_item"><a href="#contact" class="menu_link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <article class="content">
+            <section id="banners" class="section carrousel-section">
+                <div class="carrousel">
+                    <img class="carrousel_image is-selected" src="assets/images/Banner1.jpg" alt="CINE PIPOCA, Pipoca e suco na FAIXA. Encontre no 1° andar lab 4.">
+                    <img class="carrousel_image" src="assets/images/Banner2.jpg" alt="EXPOSIÇÃO, Conheça mais sobre a história e equipamentos cinematográficos.">
+                    <img class="carrousel_image" src="assets/images/Banner3.jpg" alt="APRESENTAÇÃO MUSICAL, APresentação dos melhores musicos de todos os tempos.">
+                </div>
+                <h2 class="carrousel_title">Conheça mais sobre nós</h2>
+                <a href="#about-us" class="scroll-indicator">
+                    <span class="scroll-indicator_triangle"></span>
+                    <span class="acessibility-text">Rolar para sobre nós</span>
+                </a>
+            </section>
+            <section id="about-us" class="section">
+                <!-- Imagem da lateral meramente decorativa -->
+                <img src="assets/images/Laterais_encaixe1.png" alt="" class="decorative-background">
+                <!-- Conteúdo real da sessão -->
+                <div class="container">
+                    <h2 class="section_title">O que é a Cine&Picture</h2>
+                    <p class="section_text">Basicamente trata-se de um projeto criado para ser apresentado no evento “CASA ABERTA”, que ocorre anualmente na Etec de Poá, para mostrar projetos desenvolvidos pelos alunos, baseado em um tema, esse ano o tema do evento é:</p>
+                    <blockquote class="quote" cite="Kelly Dal Pozzo">
+                        <p class="quote_text">Conhecendo o passado para construir o futuro</p>
+                        <span class="quote_author">POZZO, Kelly Dal</span>
+                    </blockquote>
+                    <p class="section_text">A ideia base do nosso projeto é mostrar a importância do audiovisual para os tempos atuais e como ele revolucionou a sociedade, evidenciando desde os cinemas com bandas ao vivo, até a imersão que uma sala de cinema atual pode nos oferecer.</p>
+                    <p class="section_text">Além disso trabalharemos a profundeza da música, as possibilidades das fotografias, o prazer da escrita e muito mais!</p>
+                    <p class="section_text">Tudo isso com espaço dinâmico, divertido, com guias mais que animados e muita pipoca!</p>
+                </div>
+            </section>
+            <section id="sections" class="section">
+                <!-- Imagem da lateral meramente decorativa -->
+                <img src="assets/images/Laterais_encaixe1.png" alt="" class="decorative-background">
+                <h2 class="section_title">Sessões</h2>
+                <div class="container">
+                    <p class="section_text">Seremos divididos em sessões curtas, de 20 minutos. Abaixo terão os temas de cada uma das sessões, para você aproveitarem o máximo e ir na que preferir</p>
+                    <div class="views">
+                        <!-- SESSÃO 1 -->
+                        <article class="exhibition views_exhibition">
+                            <div class="exhibition_number">
+                                <span>Sessão</span>
+                                <span>1</span>
+                            </div>
+                            <div class="exhibition_content">
+                                <header class="exhibition_schendule">
+                                    <span>Horário</span>
+                                    <span class="exhibition_time"><time datetime="2019-10-17 09:30">9H30</time> ÁS <time datetime="2019-10-17 00:50">09H50</time></span>
+                                </header>
+                                <h3 class="exhibition_theme">Cinema Brasileiro</h3>
+                            </div>
+                        </article>
+                        
+                        <!-- SESSÃO 2 -->
+                        <article class="exhibition views_exhibition">
+                            <div class="exhibition_number">
+                                <span>Sessão</span>
+                                <span>2</span>
+                            </div>
+                            <div class="exhibition_content">
+                                <header class="exhibition_schendule">
+                                    <span>Horário</span>
+                                    <span class="exhibition_time"><time datetime="2019-10-17 10:00">10H00</time> ÁS <time datetime="2019-10-17 10:20">10H20</time></span>
+                                </header>
+                                <h3 class="exhibition_theme">Marvel Studios</h3>
+                            </div>
+                        </article>
+
+                        <!-- SESSÃO 3 -->
+                        <article class="exhibition views_exhibition">
+                            <div class="exhibition_number">
+                                <span>Sessão</span>
+                                <span>3</span>
+                            </div>
+                            <div class="exhibition_content">
+                                <header class="exhibition_schendule">
+                                    <span>Horário</span>
+                                    <span class="exhibition_time"><time datetime="2019-10-17 10:30">10H30</time> ÁS <time datetime="2019-10-17 10:50">10H50</time></span>
+                                </header>
+                                <h3 class="exhibition_theme">Warner/DC'Comics</h3>
+                            </div>
+                        </article>
+
+                        <!-- SESSÃO 4 -->
+                        <article class="exhibition views_exhibition">
+                            <div class="exhibition_number">
+                                <span>Sessão</span>
+                                <span>4</span>
+                            </div>
+                            <div class="exhibition_content">
+                                <header class="exhibition_schendule">
+                                    <span>Horário</span>
+                                    <span class="exhibition_time"><time datetime="2019-10-17 11:00">11H00</time> ÁS <time datetime="2019-10-17 11:20">11H20</time></span>
+                                </header>
+                                <h3 class="exhibition_theme">Disney</h3>
+                            </div>
+                        </article>
+
+                        <!-- SESSÃO 5 -->
+                        <article class="exhibition views_exhibition">
+                            <div class="exhibition_number">
+                                <span>Sessão</span>
+                                <span>5</span>
+                            </div>
+                            <div class="exhibition_content">
+                                <header class="exhibition_schendule">
+                                    <span>Horário</span>
+                                    <span class="exhibition_time"><time datetime="2019-10-17 11:30">11H30</time> ÁS <time datetime="2019-10-17 11:50">11H50</time></span>
+                                </header>
+                                <h3 class="exhibition_theme">Paramount</h3>
+                            </div>
+                        </article>
+
+                        <!-- SESSÃO 6 -->
+                        <article class="exhibition views_exhibition">
+                            <div class="exhibition_number">
+                                <span>Sessão</span>
+                                <span>6</span>
+                            </div>
+                            <div class="exhibition_content">
+                                <header class="exhibition_schendule">
+                                    <span>Horário</span>
+                                    <span class="exhibition_time"><time datetime="2019-10-17 12:00">12H00</time> ÁS <time datetime="2019-10-17 12:20">12H20</time></span>
+                                </header>
+                                <h3 class="exhibition_theme">Cinema Brasileiro</h3>
+                            </div>
+                        </article>
+                        
+                        <!-- SESSÃO 7 -->
+                        <article class="exhibition views_exhibition">
+                            <div class="exhibition_number">
+                                <span>Sessão</span>
+                                <span>7</span>
+                            </div>
+                            <div class="exhibition_content">
+                                <header class="exhibition_schendule">
+                                    <span>Horário</span>
+                                    <span class="exhibition_time"><time datetime="2019-10-17 13:00">13H00</time> ÁS <time datetime="2019-10-17 13:20">13H20</time></span>
+                                </header>
+                                <h3 class="exhibition_theme">Marvel Studios</h3>
+                            </div>
+                        </article>
+
+                        <!-- SESSÃO 8 -->
+                        <article class="exhibition views_exhibition">
+                            <div class="exhibition_number">
+                                <span>Sessão</span>
+                                <span>8</span>
+                            </div>
+                            <div class="exhibition_content">
+                                <header class="exhibition_schendule">
+                                    <span>Horário</span>
+                                    <span class="exhibition_time"><time datetime="2019-10-17 13:30">13H30</time> ÁS <time datetime="2019-10-17 13:50">13H50</time></span>
+                                </header>
+                                <h3 class="exhibition_theme">Warner/DC'Comics</h3>
+                            </div>
+                        </article>
+
+                        <!-- SESSÃO 9 -->
+                        <article class="exhibition views_exhibition">
+                            <div class="exhibition_number">
+                                <span>Sessão</span>
+                                <span>9</span>
+                            </div>
+                            <div class="exhibition_content">
+                                <header class="exhibition_schendule">
+                                    <span>Horário</span>
+                                    <span class="exhibition_time"><time datetime="2019-10-17 14:00">14H00</time> ÁS <time datetime="2019-10-17 14:20">14H20</time></span>
+                                </header>
+                                <h3 class="exhibition_theme">Disney</h3>
+                            </div>
+                        </article>
+
+                        <!-- SESSÃO 10 -->
+                        <article class="exhibition views_exhibition">
+                            <div class="exhibition_number">
+                                <span>Sessão</span>
+                                <span>10</span>
+                            </div>
+                            <div class="exhibition_content">
+                                <header class="exhibition_schendule">
+                                    <span>Horário</span>
+                                    <span class="exhibition_time"><time datetime="2019-10-17 14:30">14H30</time> ÁS <time datetime="2019-10-17 11:40">14H50</time></span>
+                                </header>
+                                <h3 class="exhibition_theme">Paramount</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="teams" class="section teams">
+                <div class="container">
+                    <h2 class="section_title">Equipes</h2>
+                    <p class="section_text">Nossa equipe é formada por 36 integrantes da Etec Poá, na qual estão divididas em 6 equipes para mehor executar o projeto.</p>
+                </div>
+                <!-- Equipes / Alguém mata o designer -->
+                <section id="marketing" class="section section--left-decoration section--full">
+                    <h3 class="section_title">
+                        <img class="section_title-image" src="assets/images/marketing_image.png" alt="">
+                        <span>Marketing Digital</span>
+                    </h3>
+                    <div class="container">
+                        <p class="section_text">O marketing é responsável por divulgar o projeto Cine&Picture, fazendo publicações e cartazes para atrair o publico a partir de plataformas como Facebook e Instagram. É composto por 8 integrantes sendo eles: Aline Nunes, Ana Carolina Carriel, Débora Moreira, João Augusto, Isaque José, Pedro Henrique Garcia e Pedro Wagner.</p>
+                    </div>
+                </section>
+                <section id="woodwork" class="section section--right-decoration section--full">
+                    <!-- Imagem da lateral meramente decorativa -->
+                    <img src="assets/images/Laterais_encaixe2.png" alt="" class="decorative-background">
+                    <header class="section_header">
+                        <img class="section_title-image" src="assets/images/woodwork_image.png" alt="">
+                        <h3 class="section_title">Marcenaria</h3>
+                    </header>
+                    <div class="container">
+                        <p class="section_text">A marcenaria é responsável por toda mão de obra necessária para a realização do projeto como, montagem e construção de cenário. É composto por 5 integrantes sendo eles: Carlos Henrique, Isaque José, João Augusto, Luísa Cabo Roxo e Pedro Vitor da Silva.</p>
+                    </div>
+                </section>
+                <section id="edit" class="section section--left-decoration section--full">
+                    <h3 class="section_title">
+                        <img class="section_title-image" src="assets/images/edit_image.png" alt="">
+                        <span>Edição</span>
+                    </h3>
+                    <div class="container">
+                        <p class="section_text">A edição é responável por editar todos os vídeos que são gravados durante o processo para a exibição do projeto, também auxilia no marketing fazendo algumas imagens e vídeos para os posts. É composto por 3 integrantes sendo eles: Carina Moraes, Cauan Amaral e Raphael Alves</p>
+                    </div>
+                </section>
+                <section id="music" class="section section--right-decoration section--full">
+                    <header class="section_header">
+                        <img class="section_title-image" src="assets/images/music_image.png" alt="">
+                        <h3 class="section_title">Música</h3>
+                    </header>
+                    <div class="container">
+                        <p class="section_text">A música é responsável por preparar e fazer a apresentações de músicas ao vivo e trilhas sonoras dos filmes que serão exibidos no dia. É composto por 20 integrantes sendo eles: Bruna Lopes, Ester Benicio, Flávia Cristine, Felipe Lucena, Gabriel Sacilotti, Giovanna da Costa, Isabele Brandão, Juan Carlos, kailany Antonia Damasceno, Kauã Barbosa, kauã Pereira, Kevyn Nieves, Lucas Pagano, Nathália Pereira, Nicole Queiroz, Pedro Ventola, Rafael Prado, Ronaldo Reis, Wellington Santos e Yan Gidorini.  </p>
+                    </div>
+                </section>
+                <section id="securite" class="section section--left-decoration section--full">
+                    <h3 class="section_title">
+                        <img class="section_title-image" src="assets/images/security_image.png" alt="">
+                        <span>Segurança</span>
+                    </h3>
+                    <div class="container">
+                        <p class="section_text">A segurança é responsável por recepcionar os vistantes, apresentar o projeto e vigiar todo o local onde ocorre a progamação para que não ocorra nenhuma interferência. É composto por 6 integrantes sendo eles: Débora Moreira, kauã Pereira, Lucas Akira, Pedro Henrrique Garcia, Pedro Wagner e Yan Gidorini.</p>
+                    </div>
+                </section>
+                <section id="staff" class="section section--right-decoration section--full">
+                    <header class="section_header">
+                        <img class="section_title-image" src="assets/images/woodwork_image.png" alt="">
+                        <h3 class="section_title">Staff</h3>
+                    </header>
+                    <div class="container">
+                        <p class="section_text">O staff é responsável por auxiliar em qualquer área que for necessário como: montagem, organização, manutenção de equipamentos, etc. É composto por 8 integrantes sendo eles: Bruna lopes, Ester Benicio, Giovanna da Costa, Isabele Brandão, João Augusto, Leonardo de Souza, Nathália Pereira e Nicole Queiroz.</p>
+                    </div>
+                </section>
+            </section>
+            <section id="contact" class="section section--lg">
+                <div class="container">
+                    <h2 class="section_title">Contato</h2>
+                    <p class="section_text">Nos deixe uma mensagem, pode ser qualquer uma, dúvida, avaliação, o que você quiser.</p>
+                    <a href="mailto:cine.picture2019@gmail.com" class="button button--primary">Mande uma mensagem</a>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_logos">
+                <img class="footer_logo footer_brand" src="assets/images/Logo_Branca.png" alt="Cine&Picture" />
+                <div class="footer_sponsors">
+                    <h2 class="section_title footer_title">Apoio</h2>
+                    <div>
+                        <img class="footer_logo sponsor" src="assets/images/braz_cubas_logo.png" alt="Braz Cubas" />
+                        <img class="footer_logo sponsor" src="assets/images/papel_vivo_logo.png" alt="Papel Vivo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
